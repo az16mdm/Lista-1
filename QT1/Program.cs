@@ -18,7 +18,7 @@ using System;
     static void Main()
     {
         Console.WriteLine("Qual o nome do seu player?");
-        string nome = Console.ReadLine();
+        string? nome = Console.ReadLine();
 
 
         Console.WriteLine("Qual a idade do seu player");
@@ -32,10 +32,10 @@ using System;
         
 
         Console.WriteLine("Qual a raça do seu player?");
-        string raça = Console.ReadLine();
+        string? raça = Console.ReadLine();
 
         Console.WriteLine("Qual classe do seu player?");
-        string classe = Console.ReadLine();
+        string? classe = Console.ReadLine();
 
         Console.WriteLine("nome " + nome);
         Console.WriteLine("idade " + idade);
